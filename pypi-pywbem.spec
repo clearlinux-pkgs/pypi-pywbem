@@ -4,7 +4,7 @@
 #
 Name     : pypi-pywbem
 Version  : 1.4.0
-Release  : 72
+Release  : 73
 URL      : https://files.pythonhosted.org/packages/34/1c/1c595fe36d09d97ab0a99b3557fff1439139b5ddafb1c5e796bc220ea2cd/pywbem-1.4.0.tar.gz
 Source0  : https://files.pythonhosted.org/packages/34/1c/1c595fe36d09d97ab0a99b3557fff1439139b5ddafb1c5e796bc220ea2cd/pywbem-1.4.0.tar.gz
 Summary  : pywbem - A WBEM client
@@ -15,10 +15,6 @@ Requires: pypi-pywbem-license = %{version}-%{release}
 Requires: pypi-pywbem-python = %{version}-%{release}
 Requires: pypi-pywbem-python3 = %{version}-%{release}
 BuildRequires : buildreq-distutils3
-Provides: pywbem
-Provides: pywbem-python
-Provides: pywbem-python3
-BuildRequires : ply
 BuildRequires : pypi(mock)
 BuildRequires : pypi(nocasedict)
 BuildRequires : pypi(nocaselist)
@@ -28,7 +24,6 @@ BuildRequires : pypi(requests)
 BuildRequires : pypi(six)
 BuildRequires : pypi(urllib3)
 BuildRequires : pypi(yamlloader)
-BuildRequires : python-mock
 
 %description
 .. # Note: On Pypi, variable substitution with raw content is not enabled, so
@@ -65,7 +60,6 @@ Summary: python3 components for the pypi-pywbem package.
 Group: Default
 Requires: python3-core
 Provides: pypi(pywbem)
-Requires: pypi(mock)
 Requires: pypi(nocasedict)
 Requires: pypi(nocaselist)
 Requires: pypi(ply)
@@ -88,7 +82,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1641486714
+export SOURCE_DATE_EPOCH=1641552109
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
