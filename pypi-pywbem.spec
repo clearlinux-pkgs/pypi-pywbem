@@ -4,7 +4,7 @@
 #
 Name     : pypi-pywbem
 Version  : 1.5.0
-Release  : 83
+Release  : 84
 URL      : https://files.pythonhosted.org/packages/63/40/2dc995ef6043c3ff1de96b5fb323d031d1f14aa0d29622080b626d556664/pywbem-1.5.0.tar.gz
 Source0  : https://files.pythonhosted.org/packages/63/40/2dc995ef6043c3ff1de96b5fb323d031d1f14aa0d29622080b626d556664/pywbem-1.5.0.tar.gz
 Summary  : pywbem - A WBEM client
