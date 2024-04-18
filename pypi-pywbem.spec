@@ -6,10 +6,10 @@
 # autospec commit: 5905be9
 #
 Name     : pypi-pywbem
-Version  : 1.7.0
-Release  : 93
-URL      : https://files.pythonhosted.org/packages/f9/fe/0aaa4b2fb22be99aebf15b2fba6da1460687dc037313ff6cf3d0828e5e7d/pywbem-1.7.0.tar.gz
-Source0  : https://files.pythonhosted.org/packages/f9/fe/0aaa4b2fb22be99aebf15b2fba6da1460687dc037313ff6cf3d0828e5e7d/pywbem-1.7.0.tar.gz
+Version  : 1.7.1
+Release  : 94
+URL      : https://files.pythonhosted.org/packages/40/53/c08cf28183cc0486751cd6ec967a6296297ab4e64b595d172de86fcf86bd/pywbem-1.7.1.tar.gz
+Source0  : https://files.pythonhosted.org/packages/40/53/c08cf28183cc0486751cd6ec967a6296297ab4e64b595d172de86fcf86bd/pywbem-1.7.1.tar.gz
 Summary  : pywbem - A WBEM client
 Group    : Development/Tools
 License  : Apache-2.0 LGPL-2.1
@@ -78,10 +78,10 @@ python3 components for the pypi-pywbem package.
 
 
 %prep
-%setup -q -n pywbem-1.7.0
-cd %{_builddir}/pywbem-1.7.0
+%setup -q -n pywbem-1.7.1
+cd %{_builddir}/pywbem-1.7.1
 pushd ..
-cp -a pywbem-1.7.0 buildavx2
+cp -a pywbem-1.7.1 buildavx2
 popd
 
 %build
@@ -89,7 +89,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1713285005
+export SOURCE_DATE_EPOCH=1713457774
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
