@@ -1,5 +1,5 @@
 PKG_NAME := pypi-pywbem
-URL = https://files.pythonhosted.org/packages/81/ff/d76820639e22b57ffb76eb7b37d885996fc8f6acd13c3459e89020091d0d/pywbem-1.7.2.tar.gz
+URL = https://files.pythonhosted.org/packages/be/66/26aefdf44ec83c13f147d21f56886aa5fd64833c1a0785e90a4e667d0bce/pywbem-1.7.3.tar.gz
 ARCHIVES = 
 
 include ../common/Makefile.common
